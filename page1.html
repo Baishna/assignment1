@@ -1,0 +1,189 @@
+<head>
+    <title>BarneysandNoble</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(230, 240, 188);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #d1dab1;
+        }
+        .header img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .header .site-name {
+            flex-grow: 1;
+            text-align: left;
+            background-color: #ffe96e;
+            padding: 10px;
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            cursor: pointer;
+
+        }
+        .header .contact {
+            background-color: #f0f0f0;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .main {
+            text-align: center;
+            font-size: 35px;
+            padding: 20px;
+        }
+        .main .welcome {
+            position: relative;
+            background-image: url('barnes-noble.jpg');
+            opacity: 80%;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            margin-bottom: 20px;
+        }
+        .main .welcome::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+        }
+       
+       .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: rgba(233, 231, 226, 0.896)
+        }
+        
+        .text {
+            font-size:  30px;;
+            font-style: italic;
+            height: auto;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        
+        }
+        
+        .image {
+            flex: 1;
+            float: right;
+        }
+        
+        .barnes-noble {      
+            width: 750px; 
+            height: auto; 
+            max-width: 50%;
+        }
+
+        .container2 
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: rgba(247, 247, 246, 0.896)
+        }
+        
+        .text2 {
+            font-size:  30px;;
+            font-style: italic;
+            height: auto;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        
+        }
+        
+        .image {
+            flex: 1;
+            float: left;
+        }
+        
+        .barnes-noble1{
+            width: 7500px; 
+            height: auto; 
+            max-width: 100%;
+            float: left;
+        }
+
+        .barnes-noble2{
+            width: 7500px; 
+            height: auto; 
+            max-width: 100%;
+            float: left;
+        }
+        
+        
+        .video {
+            text-align: center;
+            margin: 20px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f0f0f0;
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="barnes-noble.jpg">
+        <div class="site-name"><a href="page1.html">Barnes and Noble</a></div>
+        <div class="contact"><a href="page2.html" >CONTACT</a></div>
+
+    </div>
+
+    <div class="main">
+        <div class="welcome">
+            <h1>Welcome <br><br>to<br> <br>Barnes and Noble</h1>
+            
+        </div>
+        <div class="container">
+            <div class="text">
+                
+                <p>
+                    Barnes & Noble is a prominent American bookseller founded in 1886, renowned for its extensive collection of books, magazines, and educational materials. With over 600 retail stores across the United States, it provides a welcoming environment for book enthusiasts to explore various genres and discover new titles. The company has evolved to offer a wide range of products, including e-books, toys, games, and gifts, catering to a diverse customer base. Barnes & Noble also supports local communities by hosting author events, book clubs, and educational programs. Despite the rise of digital media, it remains a beloved destination for readers and continues to adapt to the changing landscape of the book industry.
+                </p>
+            </div>
+            <div class="image-content">
+                <img src="barnes-noble1.jpg" alt="Barnes and Noble" class="barnes-noble1">
+            </div>
+        </div>
+        <div class="container2">
+            
+            <div class="image-content">
+                <img src="barnes-noble2.jpg" alt="Your All Time Bookstop" class="barnes-noble2">
+            </div>
+            <div class="text2">
+                
+                <p>
+                Barnes and Noble is a haven for book lovers, typically characterized by its inviting and cozy atmosphere. Upon entering, customers are greeted by the comforting scent of paper and ink, mingling with the soft rustle of pages being turned. Shelves line the walls, filled with a vast array of books spanning every genre imaginable—from classic literature and contemporary fiction to science, history, and self-help. Display tables often showcase bestsellers, new arrivals, and staff picks, offering curated selections for readers seeking recommendations.
+                </p>
+              </div>
+        </div>
+           
+
+        <div class="video">
+            <iframe width="560" height="315"src="https://www.youtube.com/embed/LIlH2L2oDno" title="Why Barnes and Noble?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="footer">
+         Join Barneys and Noble in their exciting journey to the paradise of books!@barnes-noble
+    </div>
+
+</body>
+</html>
